@@ -1,0 +1,29 @@
+.logout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+}
+
+.logout__button{
+    margin-top: 20px;
+    background: #000;
+    color: white;
+    width: 400px;
+    height: 10%;
+    outline: none;
+    border: none;
+    font-size: 1.8rem;
+    transition: .4s ease;
+}
+
+.logout__button:hover{
+    background: rgba(0,0,0,0.8);
+    font-size: 2rem;
+}
+
+.user__name{
+    color: #8d0ada;
+}
